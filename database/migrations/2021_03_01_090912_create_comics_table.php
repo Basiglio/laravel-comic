@@ -20,6 +20,7 @@ class CreateComicsTable extends Migration
             $table->string('image_hero');
             $table->string('image_cover');
             $table->string('title');
+            $table->string("slug", 100);
             $table->float('price', 6, 2);
             $table->text('body');
             $table->timestamps();

@@ -1,8 +1,8 @@
 <?php
 
+namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
-
 use App\Character;
 
 class CharactersTableSeeder extends Seeder

@@ -15,7 +15,7 @@
                     </li>
                 </ul>
             </section>
-            
+
             <section>
                 <h3>SHOP</h3>
                 <ul>
@@ -25,7 +25,7 @@
                     </li>
                 </ul>
             </section>
-        </div>  
+        </div>
         <div class="float-left pr-5">
             <section>
                 <h3>DC</h3>
@@ -44,7 +44,7 @@
                     </li>
                 </ul>
             </section>
-        </div>  
+        </div>
         <div class="float-left pr-5">
             <section>
                 <h3>SITES</h3>
@@ -55,9 +55,10 @@
                         <a href="#">DC Kids</a>
                         <a href="#">DC Universe</a>
                         <a href="#">DC Shop</a>
+                        <a href="{{ route('admin.comics.index') }}">BACKEND</a>
                     </li>
                 </ul>
             </section>
-        </div> 
+        </div>
     </div>
 </footer>

@@ -1,5 +1,6 @@
 <?php
 
+namespace Database\Seeders;
 namespace App;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
